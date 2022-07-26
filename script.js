@@ -18,6 +18,6 @@ function contar(){
     for(let contador = 0; contador <= fim; contador+=passo){
             resultado.innerHTML += `${contador} 😀`
     }
-
+    resultado.innerHTML += "🚩"
 }
 }
