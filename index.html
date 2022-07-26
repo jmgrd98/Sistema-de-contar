@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+
+    <main>
+
+        <form action="post">
+        <fieldset>
+
+        <label for="">Início:
+        <input type="number" name="inicio" id="inicio" min="0" required>
+    </label>
+        
+    <label for="">Fim:
+        <input type="number" name="fim" id="fim" min="0" required>
+    </label>
+
+    <label for="">Passo:
+        <input type="number" name="passo" id="passo" min="0" required>
+
+    <input type="button" id="button" value="Contar" onclick="contar()">
+
+    </fieldset>
+    </form>
+    
+    <section id="resultado">Clique no botão para verificar o resultado!</section>
+
+    </main>
+
+    <footer>
+        <p>Feito com HTML5, CSS3, JavaScript e muito carinho por João Marcelo Dantas :)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
