@@ -13,11 +13,17 @@ function contar(){
     }
 
     else{
-        resultado.innerHTML = "Contado: "
-        
+        resultado.innerHTML = "Contado: ";
+    } 
+    if(inicio < fim){
     for(let contador = 0; contador <= fim; contador+=passo){
             resultado.innerHTML += `${contador} 😀`
     }
     resultado.innerHTML += "🚩"
 }
+    else{
+        for(let contador = inicio; contador >= fim; contador-=passo){
+            resultado.innerHTML += `${contador} 😀`
+        }
+    }
 }
